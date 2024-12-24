@@ -1,0 +1,65 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 20px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin: 0 15px;
+    position: relative;
+  }
+  
+  .icon a {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+  }
+
+  .icon a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  
+  .icon:hover::before {
+    content: attr(data-tip);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .icon:hover::before {
+    opacity: 1;
+  }
+  
+  .profileName {
+  display:inline-flex;
+  color: white;
+  text-decoration: none;
+  flex-grow: 1; /* Take up remaining space */
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  }

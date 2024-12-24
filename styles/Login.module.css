@@ -1,0 +1,76 @@
+
+  @import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+.container1 {
+    font-family: "Actor", sans-serif;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/public/qf.png");
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-color: #503296;
+}
+
+.wrapper1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    color: #ffffff;
+    max-width: 550px;
+    border-radius: 8px;
+}
+
+.log {
+    margin: 35px 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.group {
+    display: block;
+}
+
+.group input {
+    width: 270px;
+    background: #7b8ee1;
+    border: none;
+    border-color: #7b8ee1;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.input::placeholder {
+    color: white;
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+    font-family: "Actor", sans-serif;
+}
+
+.loginbtn {
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-family: "Actor", sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: #38c6f4;
+    background: #38c6f4;
+}
+
+.footer {
+    /* background-image: url("./footer.png"); */
+    opacity: 0.4;
+    display: flex;
+    position: relative;
+    bottom: -85px;
+    width: 1530px;
+    /* margin-top: -10px; */
+}

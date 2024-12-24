@@ -1,0 +1,16 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .children {
+    padding-top: 60px; /* Add top padding to create space for the fixed navbar */
+    overflow-y: auto;
+  }
+  
+  /* Rest of your existing CSS styles */
+  
+  
